@@ -3,8 +3,9 @@
     margin-left: 40%;
 }
 
-.listitem {
-    font-size: 30px;
+.progress {
+    position: fixed;
+    top: 20px;
 }
 
 img {

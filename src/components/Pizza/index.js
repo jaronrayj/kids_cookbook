@@ -6,7 +6,7 @@ export default function Pizza (){
 
         return(
             <>
-                <Progress percent="20" indicating />
+                <Progress className='progress' percent="20" indicating />
                 <Header size='large'>
                     Pizza, Pizza, Pizza!!
                 </Header>
