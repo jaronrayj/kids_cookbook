@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c05124ca6bdb4555b8a080af36078e1c",
+    "revision": "b5e189c64f3b37d95f5e06934ce3fcd6",
     "url": "/kids_cookbook/index.html"
   },
   {
-    "revision": "d44c46a5df92d8224bf4",
+    "revision": "94cdac13f2b23a0ae2c1",
     "url": "/kids_cookbook/static/css/main.5c8dcc41.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kids_cookbook/static/js/2.dad13953.chunk.js"
   },
   {
-    "revision": "d44c46a5df92d8224bf4",
-    "url": "/kids_cookbook/static/js/main.a50b4b2f.chunk.js"
+    "revision": "94cdac13f2b23a0ae2c1",
+    "url": "/kids_cookbook/static/js/main.be6dc7e3.chunk.js"
   },
   {
     "revision": "f4ee052083e22853fb42",
