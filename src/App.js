@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container} from 'semantic-ui-react'
+import {Card} from 'semantic-ui-react'
 import FoodCard from "./components/Card"
 
 class App extends Component {
@@ -45,12 +45,9 @@ class App extends Component {
     ]
     render() {
         return (
-            <Container>
                 <Card.Group>
-                    {this.foods
-                        .map(food => <FoodCard key={food.name} name={food.name} img={food.img} link={food.link}/>)}
+                    {this.foods.map(food => <FoodCard key={food.name} name={food.name} img={food.img} link={food.link}/>)}
                 </Card.Group>
-            </Container>
         );
     }
 }
