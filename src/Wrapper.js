@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import {Container, Menu} from 'semantic-ui-react'
 import {Route, Switch} from "react-router-dom";
+import Pizza from './components/Pizza'
 import App from './App'
+import './style.css'
 
 export class Wrapper extends Component {
     render() {
@@ -11,11 +13,15 @@ export class Wrapper extends Component {
                 <Menu.Item name='Home' href='/'>                
                 </Menu.Item>
             </Menu> 
+            <Menu secondary>
+                <Menu.Item position='right' secondary name='Icons by Icon8' href='https://icons8.com'>                
+                </Menu.Item>
+            </Menu>
         <Container > 
             <Switch>
-                <Route path="/" component={App}/>
-                {/* <Route path="/Pancakes" component={Pancakes}/>
+                <Route exact path="/" component={App}/>
                 <Route path="/pizza" component={Pizza}/>
+                {/* <Route path="/Pancakes" component={Pancakes}/>
                 <Route path="/biscuits" component={Biscuits}/>
                 <Route path="/smoothie" component={Smoothie}/>
                 <Route path="/ChocSmoothie" component={ChocSmoothie}/>

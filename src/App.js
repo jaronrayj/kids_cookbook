@@ -12,7 +12,7 @@ class App extends Component {
         }, {
             name: "Pizza",
             link: "/pizza",
-            img: "https://img.icons8.com/cotton/480/000000/pizza--v1.png"
+            img: "https://img.icons8.com/officel/480/000000/pizza.png"
         }, {
             name: "Smoothie",
             link: "/smoothie",
