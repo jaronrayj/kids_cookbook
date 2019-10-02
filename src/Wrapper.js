@@ -10,7 +10,7 @@ export class Wrapper extends Component {
         return ( 
         <> 
             <Menu fixed='top'>
-                <Menu.Item name='Home' href='/'>                
+                <Menu.Item name='Home' href='/kids_cookbook/'>                
                 </Menu.Item>
             </Menu> 
             <Menu secondary>
@@ -19,8 +19,8 @@ export class Wrapper extends Component {
             </Menu>
         <Container > 
             <Switch>
-                <Route exact path="/" component={App}/>
-                <Route path="/pizza" component={Pizza}/>
+                <Route exact path="/kids_cookbook/" component={App}/>
+                <Route path="/kids_cookbook/pizza" component={Pizza}/>
                 {/* <Route path="/Pancakes" component={Pancakes}/>
                 <Route path="/biscuits" component={Biscuits}/>
                 <Route path="/smoothie" component={Smoothie}/>
