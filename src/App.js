@@ -7,39 +7,39 @@ class App extends Component {
     foods = [
         {
             name: "Pancakes",
-            link: "/kids_cookbook/#/pancakes",
+            link: "/pancakes",
             img: "https://img.icons8.com/officel/480/000000/pancake.png"
         }, {
             name: "Pizza",
-            link: "/kids_cookbook/#/pizza",
+            link: "/pizza",
             img: "https://img.icons8.com/officel/480/000000/pizza.png"
         }, {
             name: "Smoothie",
-            link: "/kids_cookbook/#/smoothie",
+            link: "/smoothie",
             img: "https://img.icons8.com/color/480/000000/milkshake--v2.png"
         }, {
             name: "Biscuits",
-            link: "/kids_cookbook/#/biscuits",
+            link: "/biscuits",
             img: "https://img.icons8.com/dusk/480/000000/biscuits.png"
         }, {
             name: "Cookies",
-            link: "/kids_cookbook/#/cookies",
+            link: "/cookies",
             img: "https://img.icons8.com/plasticine/480/000000/cookie.png"
         }, {
             name: "Rice",
-            link: "/kids_cookbook/#/rice",
+            link: "/rice",
             img: "https://img.icons8.com/plasticine/480/000000/rice-bowl.png"
         }, {
             name: "Spaghetti",
-            link: "/kids_cookbook/#/spaghetti",
+            link: "/spaghetti",
             img: "https://img.icons8.com/color/480/000000/spaghetti.png"
         }, {
             name: "Tacos",
-            link: "/kids_cookbook/#/tacos",
+            link: "/tacos",
             img: "https://img.icons8.com/plasticine/480/000000/taco.png"
         }, {
             name: "Peanut Butter and Jelly",
-            link: "/kids_cookbook/#/pbandj",
+            link: "/pbandj",
             img: "https://img.icons8.com/color/480/000000/sandwich.png"
         }
     ]
