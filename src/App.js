@@ -1,26 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {Card, Container} from 'semantic-ui-react'
+import FoodCard from "./components/Card"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    foods = [
+        {
+            name: "Pancakes",
+            link: "/pancakes",
+            img: "https://img.icons8.com/officel/480/000000/pancake.png"
+        }, {
+            name: "Pizza",
+            link: "/pizza",
+            img: "https://img.icons8.com/cotton/480/000000/pizza--v1.png"
+        }, {
+            name: "Smoothie",
+            link: "/smoothie",
+            img: "https://img.icons8.com/color/480/000000/milkshake--v2.png"
+        }, {
+            name: "Biscuits",
+            link: "/biscuits",
+            img: "https://img.icons8.com/dusk/480/000000/biscuits.png"
+        }, {
+            name: "Cookies",
+            link: "/cookies",
+            img: "https://img.icons8.com/plasticine/480/000000/cookie.png"
+        }, {
+            name: "Rice",
+            link: "/rice",
+            img: "https://img.icons8.com/plasticine/480/000000/rice-bowl.png"
+        }, {
+            name: "Spaghetti",
+            link: "/spaghetti",
+            img: "https://img.icons8.com/color/480/000000/spaghetti.png"
+        }, {
+            name: "Tacos",
+            link: "/tacos",
+            img: "https://img.icons8.com/plasticine/480/000000/taco.png"
+        }, {
+            name: "Peanut Butter and Jelly",
+            link: "/pbandj",
+            img: "https://img.icons8.com/color/480/000000/sandwich.png"
+        }
+    ]
+    render() {
+        return (
+            <Container>
+                <Card.Group>
+                    {this.foods
+                        .map(food => <FoodCard key={food.name} name={food.name} img={food.img} link={food.link}/>)}
+                </Card.Group>
+            </Container>
+        );
+    }
 }
 
 export default App;
