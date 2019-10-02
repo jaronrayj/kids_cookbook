@@ -1,5 +1,7 @@
 # kids_cookbook
 
+## Check it out here: https://jaronrayj.github.io/kids_cookbook/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
