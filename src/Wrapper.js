@@ -1,17 +1,19 @@
 import React, {Component} from 'react'
 import {Container, Menu} from 'semantic-ui-react'
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, Link} from "react-router-dom";
 import Pizza from './components/Pizza'
 import App from './App'
 import './style.css'
 
-export class Wrapper extends Component {
+class Wrapper extends Component {
     render() {
         return ( 
         <> 
-            <Menu fixed='top'>
-                <Menu.Item name='Home' href='/'>                
+            <Menu size='huge' fixed='top'>
+                <Link to='/'>
+                <Menu.Item name='Home'>                
                 </Menu.Item>
+                </Link>
             </Menu> 
             <Menu secondary>
                 <Menu.Item position='right' secondary name='Icons by Icon8' href='https://icons8.com'>                

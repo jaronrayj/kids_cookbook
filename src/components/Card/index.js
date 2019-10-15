@@ -4,7 +4,7 @@ import "./style.css"
 import {Link} from 'react-router-dom'
 
 const FoodCard = props => (
-    <Card>
+    <Card href={props.link}>
         <Link to={props.link}>
         <Card.Content>
             <Image src={props.img}/>

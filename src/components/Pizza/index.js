@@ -1,77 +1,84 @@
-import React, {Component} from 'react'
-import { Header, Progress, Divider, Image, Button } from 'semantic-ui-react';
+import { Header, Progress } from 'semantic-ui-react';
+import React, { useState } from 'react';
+import RecipeStep from '../RecipeStep'
 
-export default function Pizza (){
+function Pizza() {
+    const [progress, setProgress] = useState(0);
 
 
-        return(
-            <>
-                <Progress className='progress' percent="20" indicating />
-                <Header size='large'>
-                    Pizza, Pizza, Pizza!!
-                </Header>
-                <Divider />
-                <Header>
-                    1. Oven
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/cooker.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    2. Dough
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/bread.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    3. Sauce
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/ketchup.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    4. Cheese
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/cheese.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    5. Bacon
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/bacon.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    6. Tomato
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/tomato.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    7. Anything Else?
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/question-mark.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    8. Cook!
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/cooker.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    9. Cut
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/200/000000/pizza-cutter--v2.png' /> 
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-                <Header>
-                    10. Eat
-                </Header>
-                <Image centered src='https://img.icons8.com/officel/300/000000/pizza.png' />
-                <Button size='huge' onClick>Done!</Button>
-                <Divider />
-            </>
-        );
-    }
+    const steps = [
+        {
+            num: 1,
+            text: 'Set Oven to 425°',
+            img: 'https://img.icons8.com/officel/200/000000/cooker.png'
+        },
+        {
+            num: 2,
+            text: 'Dough',
+            img: 'https://img.icons8.com/officel/200/000000/bread.png'
+        },
+        {
+            num: 3,
+            text: 'Sauce',
+            img: 'https://img.icons8.com/officel/200/000000/ketchup.png'
+        },
+        {
+            num: 4,
+            text: 'Cheese',
+            img: 'https://img.icons8.com/officel/200/000000/cheese.png'
+        },
+        {
+            num: 5,
+            text: 'Bacon',
+            img: 'https://img.icons8.com/officel/200/000000/bacon.png'
+        },
+        {
+            num: 6,
+            text: 'Tomato',
+            img: 'https://img.icons8.com/officel/200/000000/tomato.png'
+        },
+        {
+            num: 7,
+            text: 'Anything Else?',
+            img: 'https://img.icons8.com/officel/200/000000/question-mark.png'
+        },
+        {
+            num: 8,
+            text: 'Cook!',
+            img: 'https://img.icons8.com/officel/200/000000/cooker.png'
+        },
+        {
+            num: 9,
+            text: 'Cut',
+            img: 'https://img.icons8.com/officel/200/000000/pizza-cutter--v2.png'
+        },
+        {
+            num: 10,
+            text: 'Eat',
+            img: 'https://img.icons8.com/officel/200/000000/pizza.png'
+        }
 
+    ]
+
+
+    return (
+
+        <>
+            <Progress fixed className='progressBar' percent={progress} indicating />
+
+            < Header size='huge' > Pizza, Pizza, Pizza!!</Header>
+            {steps.map((step) =>
+                <RecipeStep
+                    number={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
+                    text={step.text}
+                    key={step.text}
+                    img={step.img}
+                    progress={() => setProgress(10)}
+                />
+
+            )}
+        </>
+    );
+}
+
+export default Pizza;
