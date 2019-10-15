@@ -1,9 +1,10 @@
-import { Header, Progress } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 import React, { useState } from 'react';
 import RecipeStep from '../RecipeStep'
+import Progress from '../../hooks/progress'
 
 function Pizza() {
-    const [progress, setProgress] = useState(0);
+    // const [progress, setProgress] = useState(0);
 
 
     const steps = [
@@ -54,7 +55,7 @@ function Pizza() {
         },
         {
             num: 10,
-            text: 'Eat',
+            text: 'Eat!',
             img: 'https://img.icons8.com/officel/200/000000/pizza.png'
         }
 
@@ -64,7 +65,7 @@ function Pizza() {
     return (
 
         <>
-            <Progress fixed className='progressBar' percent={progress} indicating />
+            <Progress fixed className='progressBar' add={10} indicating />
 
             < Header size='huge' > Pizza, Pizza, Pizza!!</Header>
             {steps.map((step) =>
@@ -73,7 +74,6 @@ function Pizza() {
                     text={step.text}
                     key={step.text}
                     img={step.img}
-                    progress={() => setProgress(10)}
                 />
 
             )}

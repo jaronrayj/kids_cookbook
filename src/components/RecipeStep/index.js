@@ -1,12 +1,8 @@
 import React from 'react'
 import { Header, Divider, Image } from 'semantic-ui-react'
-import DoneButton from '../DoneButton';
 
 
 export default function RecipeStep(props) {
-    function progressClick() {
-        
-    }
 
     return (
         <>
@@ -15,7 +11,6 @@ export default function RecipeStep(props) {
                 {props.text}
             </Header>
             <Image centered src={props.img} />
-            <DoneButton onClick={() => progressClick()} />
             <Divider />
         </>
     );
