@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kids_cookbook/static/css/main.3e74aa6d.chunk.css",
-    "main.js": "/kids_cookbook/static/js/main.bd6395fd.chunk.js",
-    "main.js.map": "/kids_cookbook/static/js/main.bd6395fd.chunk.js.map",
+    "main.js": "/kids_cookbook/static/js/main.4824c475.chunk.js",
+    "main.js.map": "/kids_cookbook/static/js/main.4824c475.chunk.js.map",
     "runtime-main.js": "/kids_cookbook/static/js/runtime-main.b3d4e3d0.js",
     "runtime-main.js.map": "/kids_cookbook/static/js/runtime-main.b3d4e3d0.js.map",
-    "static/js/2.f914ab42.chunk.js": "/kids_cookbook/static/js/2.f914ab42.chunk.js",
-    "static/js/2.f914ab42.chunk.js.map": "/kids_cookbook/static/js/2.f914ab42.chunk.js.map",
+    "static/js/2.550493ef.chunk.js": "/kids_cookbook/static/js/2.550493ef.chunk.js",
+    "static/js/2.550493ef.chunk.js.map": "/kids_cookbook/static/js/2.550493ef.chunk.js.map",
     "index.html": "/kids_cookbook/index.html",
-    "precache-manifest.28fe85b9ef4336291b7b47c6540f1f29.js": "/kids_cookbook/precache-manifest.28fe85b9ef4336291b7b47c6540f1f29.js",
+    "precache-manifest.52c8a746e80c39c4097349a548aabcf5.js": "/kids_cookbook/precache-manifest.52c8a746e80c39c4097349a548aabcf5.js",
     "service-worker.js": "/kids_cookbook/service-worker.js",
     "static/css/main.3e74aa6d.chunk.css.map": "/kids_cookbook/static/css/main.3e74aa6d.chunk.css.map"
   }

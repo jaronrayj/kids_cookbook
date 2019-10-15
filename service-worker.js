@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kids_cookbook/precache-manifest.28fe85b9ef4336291b7b47c6540f1f29.js"
+  "/kids_cookbook/precache-manifest.52c8a746e80c39c4097349a548aabcf5.js"
 );
 
 self.addEventListener('message', (event) => {
