@@ -16,7 +16,7 @@ class Wrapper extends Component {
                 </Link>
             </Menu> 
             <Menu secondary>
-                <Menu.Item position='right' secondary name='Icons by Icon8' href='https://icons8.com'>                
+                <Menu.Item position='right' name='Icons by Icon8' href='https://icons8.com'>                
                 </Menu.Item>
             </Menu>
         <Container > 

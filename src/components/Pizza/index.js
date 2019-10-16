@@ -1,5 +1,5 @@
 import { Header } from 'semantic-ui-react';
-import React, { useState } from 'react';
+import React from 'react';
 import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
 
@@ -61,13 +61,17 @@ function Pizza() {
 
     ]
 
+    const topBuffer = {
+        marginTop: '140px'
+    }
+
 
     return (
 
         <>
-            <Progress fixed className='progressBar' stepCount={10} indicating />
+            <Progress fixed className='progressBar' stepCount={steps.length} indicating />
 
-            < Header size='huge' > Pizza, Pizza, Pizza!!</Header>
+            < Header style={topBuffer} size='huge' > Pizza, Pizza, Pizza!!</Header>
             {steps.map((step) =>
                 <RecipeStep
                     number={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
