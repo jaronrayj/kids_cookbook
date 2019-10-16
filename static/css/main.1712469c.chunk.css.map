@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,qBAEI,iBACJ,CAHA,OACI,UAAW,CACX,eACJ,CAEA,IACI,oBACJ","file":"main.1712469c.chunk.css","sourcesContent":[".lefty {\n    float: left;\n    margin-left: 40%;\n}\n\nimg {\n    align-content: center;\n}"]}
