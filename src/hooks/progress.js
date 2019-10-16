@@ -14,7 +14,7 @@ function ProgressBar(props) {
         setButtonText(`Step ${hrefCount}!`)
         setProgress(progress + increase)
         // move to next step
-        // window.location.hash = `#kids_cookbook/pizza/${hrefCount}`
+        window.location.hash = `#kids_cookbook/pizza/${hrefCount}`
         if (hrefCount === props.stepCount + 1) {
             setButtonText('Thanks for Cooking!')
             setButtonClass('green')
