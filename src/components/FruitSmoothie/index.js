@@ -36,7 +36,7 @@ function Biscuit() {
         },
         {
             num: 6,
-            text: 'Powder',
+            text: 'Protein Powder',
             img: 'https://img.icons8.com/officel/200/000000/powder.png',
         },
         {

@@ -14,33 +14,33 @@ function Biscuit() {
         },
         {
             num: 2,
-            text: 'Flour',
+            text: '2 Cups Flour',
             img: 'https://img.icons8.com/cotton/200/000000/flour-of-rye--v2.png',
             img3: 'https://img.icons8.com/ios/100/000000/c.png',
             img2: 'https://img.icons8.com/cotton/200/000000/flour-of-rye--v2.png'
         },
         {
             num: 3,
-            text: 'Baking Powder',
+            text: '1 T Baking Powder',
             img: 'https://img.icons8.com/ultraviolet/200/000000/powder.png',
             img2: 'https://img.icons8.com/ios/100/000000/t.png'
         },
         {
             num: 4,
-            text: 'Sugar',
+            text: '1 T Sugar',
             img: 'https://img.icons8.com/officel/200/000000/sugar-cubes.png',
             img2: 'https://img.icons8.com/ios/100/000000/t.png'
         },
         {
             num: 5,
-            text: 'Salt',
+            text: '1 t Salt',
             img: 'https://img.icons8.com/office/200/000000/salt-shaker.png',
             img2: 'https://img.icons8.com/metro/100/000000/t-lowercase.png',
 
         },
         {
             num: 6,
-            text: 'Butter',
+            text: '6 T Butter',
             img: 'https://img.icons8.com/color/200/000000/butter.png',
             img3: 'https://img.icons8.com/ios/100/000000/t.png',
             img2: 'https://img.icons8.com/color/150/000000/6-circle.png',
@@ -52,7 +52,7 @@ function Biscuit() {
         },
         {
             num: 8,
-            text: 'Milk',
+            text: '3/4 Cup Milk',
             img2: threeQuarters,
             img: 'https://img.icons8.com/office/200/000000/milk.png',
             img3: 'https://img.icons8.com/ios/100/000000/c.png',
@@ -64,7 +64,7 @@ function Biscuit() {
         },
         {
             num: 10,
-            text: 'Roll',
+            text: 'Roll w/Lots of Flour',
             img: 'https://img.icons8.com/dusk/200/000000/rolling-pin.png',
         },
         {
@@ -74,7 +74,7 @@ function Biscuit() {
         },
         {
             num: 12,
-            text: 'Cook - 12 min',
+            text: 'Cook - 12 min or Golden Brown',
             img: 'https://img.icons8.com/officel/200/000000/cooker.png'
         },
         {
@@ -101,7 +101,6 @@ function Biscuit() {
                     numberImg={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
                     text={step.text}
                     key={step.text}
-                    quant={step.quant}
                     img={step.img}
                     img2={step.img2}
                     img3={step.img3}

@@ -72,7 +72,7 @@ function Pizza() {
             < Header style={topBuffer} size='huge' > Pizza, Pizza, Pizza!!</Header>
             {steps.map((step) =>
                 <RecipeStep
-                    number={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
+                numberImg={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
                     text={step.text}
                     key={step.text}
                     img={step.img}

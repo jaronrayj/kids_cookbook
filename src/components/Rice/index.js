@@ -14,7 +14,7 @@ function Biscuit() {
         },
         {
             num: 2,
-            text: 'Rice',
+            text: '3 Cups Rice',
             img: 'https://img.icons8.com/carbon-copy/200/000000/rice-bowl.png',
             img2: 'https://img.icons8.com/carbon-copy/200/000000/rice-bowl.png',
             img3: 'https://img.icons8.com/carbon-copy/200/000000/rice-bowl.png',
@@ -22,7 +22,7 @@ function Biscuit() {
         },
         {
             num: 3,
-            text: 'Water',
+            text: '3 Cups Water',
             img: 'https://img.icons8.com/office/200/000000/water.png',
             img2: 'https://img.icons8.com/office/200/000000/water.png',
             img3: 'https://img.icons8.com/office/200/000000/water.png',
@@ -40,12 +40,12 @@ function Biscuit() {
         },
         {
             num: 6,
-            text: 'Cook - Rice Setting (10)',
+            text: 'Cook - Rice Setting (10 Min)',
             img: 'https://img.icons8.com/dotty/200/000000/cooking-pot.png'
         },
         {
             num: 7,
-            text: 'Wait! 10 more min',
+            text: 'Wait! Let Rest 10 More Min',
             img: 'https://img.icons8.com/dotty/200/000000/cooking-pot.png'
         },
         {
@@ -73,7 +73,6 @@ function Biscuit() {
                     numberImg={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}
                     text={step.text}
                     key={step.text}
-                    quant={step.quant}
                     img={step.img}
                     img2={step.img2}
                     img3={step.img3}
