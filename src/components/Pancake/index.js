@@ -84,7 +84,7 @@ function Biscuit() {
         <>
             <Progress fixed className='progressBar' stepCount={steps.length} indicating />
 
-            < Header style={topBuffer} size='huge' > Biscuits</Header>
+            < Header style={topBuffer} size='huge' > Pancakes</Header>
             {steps.map((step) =>
                 <RecipeStep
                     numberImg={`https://img.icons8.com/carbon-copy/64/000000/${step.num}.png`}

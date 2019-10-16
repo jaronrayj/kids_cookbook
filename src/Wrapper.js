@@ -6,6 +6,7 @@ import Biscuit from './components/Biscuit'
 import FruitSmoothie from './components/FruitSmoothie'
 import Rice from './components/Rice'
 import Pancake from './components/Pancake'
+import PBandJ from './components/PBandJ'
 import App from './App'
 import './style.css'
 
@@ -31,9 +32,9 @@ class Wrapper extends Component {
                         <Route path="/smoothie" component={FruitSmoothie} />
                         <Route path="/rice" component={Rice}/>
                         <Route path="/pancakes" component={Pancake}/>
+                        <Route path="/pbandj" component={PBandJ}/>
                         {/* <Route path="/Pancakes" component={Pancakes}/>
                 <Route path="/ChocSmoothie" component={ChocSmoothie}/>
-                <Route path="/Blank8" component={Blank8}/>
                 <Route path="/Blank8" component={Blank8}/> */}
                     </Switch>
                 </Container>
