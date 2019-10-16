@@ -47,7 +47,7 @@ function Pizza() {
     return (
 
         <>
-            <Progress fixed className='progressBar' stepCount={steps.length} indicating />
+            <Progress stepCount={steps.length} />
 
             < Header style={topBuffer} size='huge' > Peanut Butter and Jelly Sandwich</Header>
             {steps.map((step) =>

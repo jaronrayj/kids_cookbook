@@ -2,9 +2,9 @@ import { Header } from 'semantic-ui-react';
 import React from 'react';
 import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
-import threeQuarters from '../../images/3quarters.gif'
 
 function Biscuit() {
+
 
     const steps = [
         {
@@ -65,7 +65,7 @@ function Biscuit() {
     return (
 
         <>
-            <Progress fixed className='progressBar' stepCount={steps.length} indicating />
+            <Progress stepCount={steps.length} />
 
             < Header style={topBuffer} size='huge' > Rice</Header>
             {steps.map((step) =>

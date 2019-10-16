@@ -3,6 +3,7 @@ import React from 'react';
 import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
 import threeQuarters from '../../images/3quarters.gif'
+import { Link } from "react-router-dom";
 
 function Biscuit() {
 
@@ -93,7 +94,7 @@ function Biscuit() {
     return (
 
         <>
-            <Progress fixed className='progressBar' stepCount={steps.length} indicating />
+            <Progress stepCount={steps.length} />
 
             < Header style={topBuffer} size='huge' > Biscuits</Header>
             {steps.map((step) =>
