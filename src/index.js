@@ -4,10 +4,10 @@ import Wrapper from './Wrapper';
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-    <HashRouter
+  <HashRouter
     basename="/kids_cookbook">
-      <Wrapper />
-    </HashRouter>,
+    <Wrapper />
+  </HashRouter>,
   document.getElementById("root")
 );
 

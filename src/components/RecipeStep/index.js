@@ -19,6 +19,7 @@ export default function RecipeStep(props) {
                 <Image src={props.img} />
                 <Image src={props.img2} />
                 <Image src={props.img3} />
+                <Image src={props.img4} />
             </Image.Group>
             <Divider />
         </div>

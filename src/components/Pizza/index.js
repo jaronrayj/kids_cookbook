@@ -4,8 +4,6 @@ import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
 
 function Pizza() {
-    // const [progress, setProgress] = useState(0);
-
 
     const steps = [
         {
@@ -45,7 +43,7 @@ function Pizza() {
         },
         {
             num: 8,
-            text: 'Cook!',
+            text: 'Cook - 11 min',
             img: 'https://img.icons8.com/officel/200/000000/cooker.png'
         },
         {
