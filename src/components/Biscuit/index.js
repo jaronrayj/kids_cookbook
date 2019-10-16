@@ -80,7 +80,7 @@ function Biscuit() {
         {
             num: 13,
             text: 'Eat!',
-            img: 'https://img.icons8.com/dusk/200/000000/biscuits.png'
+            img: 'https://img.icons8.com/dusk/480/000000/biscuits.png'
         }
 
     ]

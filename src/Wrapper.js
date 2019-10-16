@@ -3,6 +3,7 @@ import { Container, Menu } from 'semantic-ui-react'
 import { Route, Switch, Link } from "react-router-dom";
 import Pizza from './components/Pizza'
 import Biscuit from './components/Biscuit'
+import FruitSmoothie from './components/FruitSmoothie'
 import App from './App'
 import './style.css'
 
@@ -25,8 +26,8 @@ class Wrapper extends Component {
                         <Route exact path="/" component={App} />
                         <Route exact path="/pizza" component={Pizza} />
                         <Route path="/biscuits" component={Biscuit} />
+                        <Route path="/smoothie" component={FruitSmoothie} />
                         {/* <Route path="/Pancakes" component={Pancakes}/>
-                <Route path="/smoothie" component={Smoothie}/>
                 <Route path="/ChocSmoothie" component={ChocSmoothie}/>
                 <Route path="/Blank6" component={Blank6}/>
                 <Route path="/Blank7" component={Blank7}/>

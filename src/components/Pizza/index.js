@@ -54,7 +54,7 @@ function Pizza() {
         {
             num: 10,
             text: 'Eat!',
-            img: 'https://img.icons8.com/officel/200/000000/pizza.png'
+            img: 'https://img.icons8.com/officel/480/000000/pizza.png'
         }
 
     ]
