@@ -4,6 +4,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import Pizza from './components/Pizza'
 import Biscuit from './components/Biscuit'
 import FruitSmoothie from './components/FruitSmoothie'
+import Rice from './components/Rice'
 import App from './App'
 import './style.css'
 
@@ -27,9 +28,9 @@ class Wrapper extends Component {
                         <Route exact path="/pizza" component={Pizza} />
                         <Route path="/biscuits" component={Biscuit} />
                         <Route path="/smoothie" component={FruitSmoothie} />
+                        <Route path="/Rice" component={Rice}/>
                         {/* <Route path="/Pancakes" component={Pancakes}/>
                 <Route path="/ChocSmoothie" component={ChocSmoothie}/>
-                <Route path="/Blank6" component={Blank6}/>
                 <Route path="/Blank7" component={Blank7}/>
                 <Route path="/Blank8" component={Blank8}/>
                 <Route path="/Blank8" component={Blank8}/> */}
