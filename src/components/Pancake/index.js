@@ -27,8 +27,8 @@ function Biscuit() {
         {
             num: 4,
             text: '2 T Sugar',
-            img: 'https://img.icons8.com/officel/200/000000/sugar-cubes.png',
-            img2: 'https://img.icons8.com/officel/200/000000/sugar-cubes.png',
+            img: 'https://img.icons8.com/officel/200/000000/sugar-cube.png',
+            img2: 'https://img.icons8.com/officel/200/000000/sugar-cube.png',
             img3: 'https://img.icons8.com/ios/100/000000/t.png'
         },
         {
