@@ -8,6 +8,7 @@ import FruitSmoothie from './components/FruitSmoothie'
 import Rice from './components/Rice'
 import Pancake from './components/Pancake'
 import PBandJ from './components/PBandJ'
+import Cookies from './components/Cookies'
 import Spaghetti from './components/Spaghetti'
 import Marinara from './components/Marinara'
 import App from './App'
@@ -39,6 +40,7 @@ function Wrapper() {
                     <Route path="/pbandj" component={PBandJ} />
                     <Route path="/spaghetti" component={Spaghetti} />
                     <Route path="/marinara" component={Marinara} />
+                    <Route path="/cookies" component={Cookies} />
                     {/* <Route path="/Pancakes" component={Pancakes}/>
                 <Route path="/ChocSmoothie" component={ChocSmoothie}/>
                 <Route path="/Blank8" component={Blank8}/> */}

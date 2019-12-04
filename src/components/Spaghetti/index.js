@@ -39,11 +39,16 @@ function Spaghetti() {
         },
         {
             num: 7,
+            text: 'Drain water from spaghetti',
+            img: 'https://img.icons8.com/ios/200/000000/frying-pan.png'
+        },
+        {
+            num: 8,
             text: 'Add marinara',
             img: 'https://img.icons8.com/office/200/000000/ketchup.png'
         },
         {
-            num: 8,
+            num: 9,
             text: 'Eat!',
             img: "https://img.icons8.com/color/480/000000/spaghetti.png"
 
