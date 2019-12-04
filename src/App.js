@@ -41,6 +41,11 @@ class App extends Component {
             img: "https://img.icons8.com/color/480/000000/spaghetti.png"
         },
         {
+            name: "Marinara",
+            link: "/marinara",
+            img: "https://img.icons8.com/office/480/000000/ketchup.png"
+        },
+        {
             name: "Tacos",
             link: "/tacos",
             img: "https://img.icons8.com/plasticine/480/000000/taco.png"
@@ -49,7 +54,7 @@ class App extends Component {
             name: "Peanut Butter and Jelly",
             link: "/pbandj",
             img: "https://img.icons8.com/color/480/000000/sandwich.png"
-        }
+        },
     ]
     render() {
         return (

@@ -3,7 +3,7 @@ import React from 'react';
 import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
 
-function Pizza() {
+function PBandJ() {
 
     const steps = [
         {
@@ -64,4 +64,4 @@ function Pizza() {
     );
 }
 
-export default Pizza;
+export default PBandJ;

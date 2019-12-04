@@ -3,7 +3,7 @@ import React from 'react';
 import RecipeStep from '../RecipeStep'
 import Progress from '../../hooks/progress'
 
-function Biscuit() {
+function Smoothie() {
 
     const steps = [
         {
@@ -81,4 +81,4 @@ function Biscuit() {
     );
 }
 
-export default Biscuit;
+export default Smoothie;
